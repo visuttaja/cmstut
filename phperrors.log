@@ -1,0 +1,30 @@
+[19-Feb-2017 14:21:45 Europe/Helsinki] PHP Parse error:  syntax error, unexpected 'if' (T_IF), expecting ',' or ';' in C:\apa\r\bin\htdocs\ci_sites\cms\application\controllers\SalatCO.php on line 45
+[19-Feb-2017 14:21:45 Europe/Helsinki] PHP Stack trace:
+[19-Feb-2017 14:21:45 Europe/Helsinki] PHP   1. {main}() C:\apa\r\bin\htdocs\ci_sites\cms\index.php:0
+[19-Feb-2017 14:21:45 Europe/Helsinki] PHP   2. require_once() C:\apa\r\bin\htdocs\ci_sites\cms\index.php:368
+[19-Feb-2017 14:22:14 Europe/Helsinki] PHP Parse error:  syntax error, unexpected '{' in C:\apa\r\bin\htdocs\ci_sites\cms\application\controllers\SalatCO.php on line 46
+[19-Feb-2017 14:22:14 Europe/Helsinki] PHP Stack trace:
+[19-Feb-2017 14:22:14 Europe/Helsinki] PHP   1. {main}() C:\apa\r\bin\htdocs\ci_sites\cms\index.php:0
+[19-Feb-2017 14:22:14 Europe/Helsinki] PHP   2. require_once() C:\apa\r\bin\htdocs\ci_sites\cms\index.php:368
+[19-Feb-2017 14:47:19 Europe/Helsinki] PHP Parse error:  syntax error, unexpected 'Salasana1' (T_STRING) in C:\apa\r\bin\htdocs\ci_sites\cms\application\controllers\SalatCO.php on line 212
+[19-Feb-2017 14:47:19 Europe/Helsinki] PHP Stack trace:
+[19-Feb-2017 14:47:19 Europe/Helsinki] PHP   1. {main}() C:\apa\r\bin\htdocs\ci_sites\cms\index.php:0
+[19-Feb-2017 14:47:19 Europe/Helsinki] PHP   2. require_once() C:\apa\r\bin\htdocs\ci_sites\cms\index.php:368
+[09-Mar-2017 10:49:16 Europe/Helsinki] PHP Fatal error:  Call to undefined function list_all_articles() in C:\apa\r\bin\htdocs\ci_sites\cms\application\controllers\admin\DashboardCO.php on line 20
+[09-Mar-2017 10:49:16 Europe/Helsinki] PHP Stack trace:
+[09-Mar-2017 10:49:16 Europe/Helsinki] PHP   1. {main}() C:\apa\r\bin\htdocs\ci_sites\cms\index.php:0
+[09-Mar-2017 10:49:16 Europe/Helsinki] PHP   2. require_once() C:\apa\r\bin\htdocs\ci_sites\cms\index.php:368
+[09-Mar-2017 10:49:16 Europe/Helsinki] PHP   3. call_user_func_array:{C:\apa\r\bin\htdocs\ci_sites\cms\system\core\CodeIgniter.php:529}(*uninitialized*, *uninitialized*) C:\apa\r\bin\htdocs\ci_sites\cms\system\core\CodeIgniter.php:529
+[09-Mar-2017 10:49:16 Europe/Helsinki] PHP   4. DashboardCO->index() C:\apa\r\bin\htdocs\ci_sites\cms\system\core\CodeIgniter.php:529
+[30-Mar-2017 13:59:47 Europe/Helsinki] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in C:\apa\r\bin\htdocs\ci_sites\cms\application\views\adminvi\article\ar_editvi.php on line 14
+[30-Mar-2017 13:59:47 Europe/Helsinki] PHP Stack trace:
+[30-Mar-2017 13:59:47 Europe/Helsinki] PHP   1. {main}() C:\apa\r\bin\htdocs\ci_sites\cms\index.php:0
+[30-Mar-2017 13:59:47 Europe/Helsinki] PHP   2. require_once() C:\apa\r\bin\htdocs\ci_sites\cms\index.php:368
+[30-Mar-2017 13:59:47 Europe/Helsinki] PHP   3. call_user_func_array:{C:\apa\r\bin\htdocs\ci_sites\cms\system\core\CodeIgniter.php:529}(*uninitialized*, *uninitialized*) C:\apa\r\bin\htdocs\ci_sites\cms\system\core\CodeIgniter.php:529
+[30-Mar-2017 13:59:47 Europe/Helsinki] PHP   4. ArticleCO->edit($id = *uninitialized*) C:\apa\r\bin\htdocs\ci_sites\cms\system\core\CodeIgniter.php:529
+[30-Mar-2017 13:59:47 Europe/Helsinki] PHP   5. Admin_Controller->kasaaPerusSivu($title = *uninitialized*) C:\apa\r\bin\htdocs\ci_sites\cms\application\controllers\admin\articleco.php:71
+[30-Mar-2017 13:59:47 Europe/Helsinki] PHP   6. CI_Loader->view($view = *uninitialized*, $vars = *uninitialized*, $return = *uninitialized*) C:\apa\r\bin\htdocs\ci_sites\cms\application\libraries\Admin_Controller.php:44
+[30-Mar-2017 13:59:47 Europe/Helsinki] PHP   7. CI_Loader->_ci_load($_ci_data = *uninitialized*) C:\apa\r\bin\htdocs\ci_sites\cms\system\core\Loader.php:489
+[30-Mar-2017 13:59:47 Europe/Helsinki] PHP   8. include() C:\apa\r\bin\htdocs\ci_sites\cms\system\core\Loader.php:973
+[30-Mar-2017 13:59:47 Europe/Helsinki] PHP   9. CI_Loader->view($view = *uninitialized*, $vars = *uninitialized*, $return = *uninitialized*) C:\apa\r\bin\htdocs\ci_sites\cms\application\views\adminvi\_layout_mainVI.php:71
+[30-Mar-2017 13:59:47 Europe/Helsinki] PHP  10. CI_Loader->_ci_load($_ci_data = *uninitialized*) C:\apa\r\bin\htdocs\ci_sites\cms\system\core\Loader.php:489

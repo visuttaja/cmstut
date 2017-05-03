@@ -1,0 +1,6 @@
+[13-Jan-2017 14:04:34 Europe/Helsinki] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in C:\apa\r\bin\htdocs\ci_sites\cms\application\controllers\Testaa_foreach.php on line 65
+[13-Jan-2017 14:05:00 Europe/Helsinki] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in C:\apa\r\bin\htdocs\ci_sites\cms\application\controllers\Testaa_foreach.php on line 67
+[13-Jan-2017 14:05:14 Europe/Helsinki] PHP Parse error:  syntax error, unexpected '}' in C:\apa\r\bin\htdocs\ci_sites\cms\application\controllers\Testaa_foreach.php on line 68
+[13-Jan-2017 14:06:26 Europe/Helsinki] PHP Parse error:  syntax error, unexpected end of file in C:\apa\r\bin\htdocs\ci_sites\cms\application\controllers\Testaa_foreach.php on line 73
+[13-Jan-2017 14:31:52 Europe/Helsinki] PHP Parse error:  syntax error, unexpected ';', expecting '(' in C:\apa\r\bin\htdocs\ci_sites\cms\application\controllers\Testaa_foreach.php on line 77
+[13-Jan-2017 17:00:15 Europe/Helsinki] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in C:\apa\r\bin\htdocs\ci_sites\cms\application\controllers\Testaa_foreach.php on line 160
