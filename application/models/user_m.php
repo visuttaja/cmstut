@@ -40,17 +40,14 @@ class user_m extends MY_Model
 'rules' => 'trim|matches[password]'
 ),
     );
-
+//***********************************************************
     public function login(){
     $pwrd= $this->hash($this->input->post('password'));
 
     $user=$this->get_by(array(
         'email'=>$this->input->post('email') ,
-    'password'=>$this->hash($this->input->post('password')),
+    'password'=>$this->hash($this->input->post('password')),  ),TRUE);
 
-
-
-    ),TRUE);
 //jos user array ei ole tyhjä kaiken tämän jälkee
     if(count($user)){
 
@@ -69,7 +66,8 @@ class user_m extends MY_Model
 
 
 }
-   function get_new(){
+//*************************************************
+function get_new(){
 $user = new stdClass();
        $user ->name = '';
        $user -> email= '';
@@ -82,16 +80,16 @@ $user = new stdClass();
 $this->session->sess_destroy();
 
     }
+//********************************
     public function loggedin(){
 
     return (bool)$this->session->userdata('loggedin');
 }
-    public function hash($string){
+//**********************************
+public function hash($string){
     return hash('sha512',config_item('encryption_key').$string  );
-
-
 }
-
+//******************************************
 
 
 }
