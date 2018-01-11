@@ -28,3 +28,17 @@
 [30-Mar-2017 13:59:47 Europe/Helsinki] PHP   8. include() C:\apa\r\bin\htdocs\ci_sites\cms\system\core\Loader.php:973
 [30-Mar-2017 13:59:47 Europe/Helsinki] PHP   9. CI_Loader->view($view = *uninitialized*, $vars = *uninitialized*, $return = *uninitialized*) C:\apa\r\bin\htdocs\ci_sites\cms\application\views\adminvi\_layout_mainVI.php:71
 [30-Mar-2017 13:59:47 Europe/Helsinki] PHP  10. CI_Loader->_ci_load($_ci_data = *uninitialized*) C:\apa\r\bin\htdocs\ci_sites\cms\system\core\Loader.php:489
+[26-May-2017 11:41:37 Europe/Helsinki] PHP Fatal error:  session_start(): Failed to initialize storage module: user (path: ci_sessions) in D:\VBOX_ossi\ossifiilis\public\cmstut\system\libraries\Session\Session.php on line 143
+[26-May-2017 11:41:37 Europe/Helsinki] PHP Stack trace:
+[26-May-2017 11:41:37 Europe/Helsinki] PHP   1. {main}() D:\VBOX_ossi\ossifiilis\public\cmstut\index.php:0
+[26-May-2017 11:41:37 Europe/Helsinki] PHP   2. require_once() D:\VBOX_ossi\ossifiilis\public\cmstut\index.php:368
+[26-May-2017 11:41:37 Europe/Helsinki] PHP   3. UPageCO->__construct() D:\VBOX_ossi\ossifiilis\public\cmstut\system\core\CodeIgniter.php:515
+[26-May-2017 11:41:37 Europe/Helsinki] PHP   4. Frontend_Controller->__construct() D:\VBOX_ossi\ossifiilis\public\cmstut\application\controllers\upageco.php:9
+[26-May-2017 11:41:37 Europe/Helsinki] PHP   5. MY_Controller->__construct() D:\VBOX_ossi\ossifiilis\public\cmstut\application\libraries\Frontend_Controller.php:8
+[26-May-2017 11:41:37 Europe/Helsinki] PHP   6. CI_Loader->library() D:\VBOX_ossi\ossifiilis\public\cmstut\application\core\MY_Controller.php:6
+[26-May-2017 11:41:37 Europe/Helsinki] PHP   7. CI_Loader->_ci_load_library() D:\VBOX_ossi\ossifiilis\public\cmstut\system\core\Loader.php:218
+[26-May-2017 11:41:37 Europe/Helsinki] PHP   8. CI_Loader->_ci_load_library() D:\VBOX_ossi\ossifiilis\public\cmstut\system\core\Loader.php:1093
+[26-May-2017 11:41:37 Europe/Helsinki] PHP   9. CI_Loader->_ci_load_stock_library() D:\VBOX_ossi\ossifiilis\public\cmstut\system\core\Loader.php:1048
+[26-May-2017 11:41:37 Europe/Helsinki] PHP  10. CI_Loader->_ci_init_library() D:\VBOX_ossi\ossifiilis\public\cmstut\system\core\Loader.php:1185
+[26-May-2017 11:41:37 Europe/Helsinki] PHP  11. CI_Session->__construct() D:\VBOX_ossi\ossifiilis\public\cmstut\system\core\Loader.php:1292
+[26-May-2017 11:41:37 Europe/Helsinki] PHP  12. session_start() D:\VBOX_ossi\ossifiilis\public\cmstut\system\libraries\Session\Session.php:143
