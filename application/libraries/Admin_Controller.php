@@ -10,10 +10,6 @@ class Admin_Controller extends MY_Controller
         $this->data['meta_title']="Ohjausvipstaakit ";
         $this->load->helper('form');
         $this->load->library('form_validation');
-        //$this->load->library('session');//miksi ei ylemmässä My_C?
-        //$this->load->library('session');//autoloadissa
-
-
         $this->load->model('user_m');
        // var_dump("hello from Admin_Controller<br>");
 //login varmistus

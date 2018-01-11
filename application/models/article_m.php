@@ -42,7 +42,7 @@ class Article_M extends MY_Model
 
     );
 
-
+//*********************************************
     function get_new()
     {
         $article = new stdClass();
@@ -57,14 +57,14 @@ class Article_M extends MY_Model
 
         return $article;
     }
-
+//********************************************
     public function set_published()
     {
         //TODO replace all instances of pubdate
         $this->db->where('pubdate<=', date('Y-m-d'));
 
     }
-
+//******************************************
     public function get_recent($limit = 3)
     {
         $limit = (int)$limit;
